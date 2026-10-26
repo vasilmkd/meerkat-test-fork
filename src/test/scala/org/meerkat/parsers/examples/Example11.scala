@@ -31,9 +31,9 @@ import org.meerkat.Syntax._
 import org.meerkat.parsers._
 import Parsers._
 import OperatorParsers._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class Example11 extends FunSuite {
+class Example11 extends AnyFunSuite {
   
   val Num = syn { "[0-9]".r }
   val E: OperatorNonterminal 

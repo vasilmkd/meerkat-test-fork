@@ -31,9 +31,9 @@ import org.meerkat.Syntax._
 import org.meerkat.parsers._
 import Parsers._
 import OperatorParsers._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class Example12 extends FunSuite {
+class Example12 extends AnyFunSuite {
   
   implicit val Layout = layout { """\s?""".r }
   

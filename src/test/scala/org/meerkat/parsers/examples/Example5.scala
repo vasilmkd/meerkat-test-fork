@@ -30,9 +30,9 @@ package org.meerkat.parsers.examples
 import org.meerkat.Syntax._
 import org.meerkat.parsers._
 import Parsers._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class Example5 extends FunSuite {
+class Example5 extends AnyFunSuite {
   
   val E: Nonterminal = syn ( "(" ~ E ~ ")" 
                            | E ~ "*" ~ E 

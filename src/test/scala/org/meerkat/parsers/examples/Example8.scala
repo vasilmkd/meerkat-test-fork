@@ -31,12 +31,12 @@ import org.meerkat.Syntax._
 import org.meerkat.parsers._
 import Parsers._
 import OperatorParsers._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
 /**
  * Associativity groups + deep case (unary/binary operators)
  */
-class Example8 extends FunSuite {
+class Example8 extends AnyFunSuite {
   
   implicit val LL = layout { "".r }
   

@@ -30,9 +30,9 @@ package org.meerkat.parsers.examples
 import org.meerkat.Syntax._
 import org.meerkat.parsers._
 import Parsers._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class Example3 extends FunSuite {
+class Example3 extends AnyFunSuite {
   
   val C = syn { "c" ^ toStr }
     
